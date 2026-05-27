@@ -1,0 +1,583 @@
+/*==========HEADER==========*/
+
+header{
+    background-color:#404b1f;
+}
+
+/*===NAVBAR===*/
+
+.navbar{
+    max-width:1400px;
+    margin:0 auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    height:180px;
+
+    padding:0 50px;
+}
+
+/*===LINKS===*/
+
+.nav-links{
+    display:flex;
+    gap:80px;
+}
+
+.nav-links a{
+    color:#d9ddbc;
+
+    text-decoration:none;
+
+    font-size:18px;
+    font-weight:500;
+
+    font-family:Arial, sans-serif;
+
+    transition:0.3s ease;
+}
+
+.nav-links a:hover{
+    opacity:0.75;
+}
+
+/*===LOGO===*/
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo img{
+    width:300px;
+    height:auto;
+    display:block;
+}
+
+/*===BURGER===*/
+
+.hamburger{
+    display:none;
+}
+
+
+/*==========Body==========*/
+
+body{
+
+    background-color:#CBD9A8;
+
+    margin:0;
+
+    padding:0;
+}
+
+/*==========Forside billede==========*/
+
+.hero{
+    width:100%;
+}
+
+.hero img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    display:block;
+}
+
+/*==========VELKOMMEN==========*/
+
+.welcome{
+
+    padding:60px 0;
+}
+
+/*===INDHOLD===*/
+
+.welcome-content{
+
+    max-width:1100px;
+
+    margin:0 auto;
+}
+
+/*===OVERSKRIFT===*/
+
+.welcome h1{
+
+    font-size:64px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    color:#000;
+}
+
+/*===TEKST===*/
+
+.welcome p{
+
+    font-size:24px;
+
+    line-height:1.4;
+
+    max-width:900px;
+
+    margin-bottom:60px;
+
+    color:#000;
+}
+
+/*===BILLEDE===*/
+
+.welcome img{
+
+    width:100%;
+
+    height:auto;
+
+    display:block;
+}
+
+
+/*==========Minigolfbane==========*/
+
+.minigolfbane img{
+
+    width:100%;
+
+    height:auto;
+
+    display:block;
+
+    object-fit:cover;
+}
+
+
+/*==========Events==========*/
+
+.events{
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    padding:0 40px;
+}
+
+.events h2{
+
+    font-size:64px;
+
+    margin-bottom:50px;
+}
+
+/*===CARDS===*/
+
+.event-cards{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:40px;
+}
+
+/*===CARD===*/
+
+.event-card{
+
+    width:320px;
+
+    text-decoration:none;
+
+    background:#98A067;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    transition:0.3s ease;
+}
+
+.event-card:hover{
+
+    transform:translateY(-5px);
+}
+
+/*===BILLEDE===*/
+
+.event-card img{
+
+    width:100%;
+
+    height:340px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+/*===TEKST===*/
+
+.card-text{
+
+    color:white;
+
+    text-align:center;
+
+    font-size:24px;
+
+    padding:25px 10px;
+}
+
+/*==========PRISER==========*/
+
+.priser{
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    padding:0 40px;
+}
+
+.priser h2{
+
+    font-size:72px;
+
+    margin-bottom:60px;
+
+    color:#000;
+}
+
+/*===WRAPPER===*/
+
+.pris-wrapper{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+}
+
+/*===KORT===*/
+
+.pris-kort{
+
+    width:500px;
+
+    height:420px;
+
+    background:#98A067;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    padding-top:50px;
+
+    box-sizing:border-box;
+
+    transition:0.3s ease;
+}
+
+.pris-kort:hover{
+
+    transform:translateY(-5px);
+}
+
+/*===IKON===*/
+
+.pris-kort img{
+
+    width:140px;
+
+    height:100px;
+
+    object-fit:contain;
+
+    margin-bottom:50px;
+}
+
+/*===TEKST===*/
+
+.pris-kort h3{
+
+    color:#F5F3E8;
+
+    font-size:32px;
+
+    font-weight:400;
+
+    margin-bottom:30px;
+}
+
+/*===PRIS===*/
+
+.pris{
+
+    color:#F5F3E8;
+
+    font-size:72px;
+
+    font-weight:500;
+
+    margin:0;
+}
+
+/*========== PRAKTISK INFO ==========*/
+
+.praktisk-info{
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    padding:0 40px;
+}
+
+.praktisk-info h2{
+
+    font-size:64px;
+
+    color:#2F311F;
+
+    margin-bottom:40px;
+}
+
+/*=== GRID ===*/
+
+.info-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+}
+
+/*=== BOKSE ===*/
+
+.info-box{
+
+    background:#98A067;
+
+    border-radius:12px;
+
+    min-height:220px;
+
+    padding:35px;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    position:relative;
+
+    transition:0.3s ease;
+}
+
+.info-box:hover{
+
+    transform:translateY(-5px);
+}
+
+/*=== IKON ===*/
+
+.info-box img{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:contain;
+
+    margin-right:25px;
+}
+
+/*=== TEKST ===*/
+
+.info-box span{
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:500;
+}
+
+/*=== PIL ===*/
+
+.info-box p{
+
+    position:absolute;
+
+    right:35px;
+
+    bottom:20px;
+
+    color:white;
+
+    font-size:50px;
+
+    margin:0;
+}
+
+/*==========Bold==========*/
+
+.footer-bold{
+
+    position:absolute;
+
+    width:25px;
+    height:25px;
+
+    border-radius:50%;
+
+    background:white;
+
+    left:0;
+    top:120px;
+
+    opacity:0;
+}
+
+/*==========FOOTER==========*/
+
+footer{
+    background:#3F4A1E;
+    padding:40px 60px;
+}
+
+/*===WRAPPER===*/
+
+.footer-wrapper{
+
+    width:1000px;
+
+    margin:0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*===FLAG===*/
+
+.footer-flag img{
+
+    width:170px;
+
+    display:block;
+}
+
+/*===KONTAKT===*/
+
+
+
+.footer-contact h3{
+
+    color:#D9DDBB;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+}
+
+.footer-contact p{
+
+    color:#D9DDBB;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin:0;
+}
+
+/*===MIDTE===*/
+
+.footer-center{
+    display: flex;
+    flex-direction: row;
+    .footer-flag{
+
+        width:170px;
+
+        display:block;
+    }
+}
+
+.footer-logo{
+
+    width:280px;
+
+    margin-bottom:20px;
+}
+
+.social-title{
+
+    color:#D9DDBB;
+
+    font-size:18px;
+
+    margin-bottom:20px;
+}
+
+.social-icons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.social-icons img{
+
+    width:70px;
+}
+
+/*===LINKS===*/
+
+.footer-links{
+
+    margin-top:110px;
+}
+
+.footer-links h3{
+
+    color:#D9DDBB;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+}
+
+.footer-links a{
+
+    display:block;
+
+    color:#D9DDBB;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    line-height:1.8;
+}
