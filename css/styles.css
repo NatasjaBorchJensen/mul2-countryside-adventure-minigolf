@@ -146,15 +146,29 @@ body{
 
 /*==========Minigolfbane==========*/
 
-.minigolfbane img{
+.minigolfbane {
+    position: relative;
 
-    width:100%;
+    .bold {
+        position: absolute;
+        width: 5%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        background: white;
+        left: 1%;
+        bottom: 29%;
+        opacity: 1;
+    }
 
-    height:auto;
+    .bane-image{
+        width:100%;
 
-    display:block;
+        height:auto;
 
-    object-fit:cover;
+        display:block;
+
+        object-fit:cover;
+    }
 }
 
 
@@ -461,6 +475,8 @@ body{
 footer{
     background:#3F4A1E;
     padding:40px 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*===WRAPPER===*/
@@ -475,15 +491,6 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-/*===FLAG===*/
-
-.footer-flag img{
-
-    width:170px;
-
-    display:block;
 }
 
 /*===KONTAKT===*/
@@ -512,15 +519,47 @@ footer{
 
 /*===MIDTE===*/
 
-.footer-center{
+.footer-title{
     display: flex;
     flex-direction: row;
-    .footer-flag{
 
-        width:170px;
+    .footer-title-flag{
+       flex: 1;
+        position: relative;
 
-        display:block;
+        .flag-container {
+            position: relative;
+            top: -130px;
+            max-width: 200px;
+
+            .flag {
+                display: block;
+                width: 100%;
+            }
+
+            .bold {
+                position: absolute;
+                width: 10%;
+                height: 10%;
+                border-radius: 50%;
+                background: white;
+                left: 1%;
+                bottom: 29%;
+                opacity: 1;
+            }
+        }
     }
+
+    .footer-title-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-title-spacing{
+        flex: 1;
+    }
+
 }
 
 .footer-logo{
