@@ -171,6 +171,23 @@ body{
     }
 }
 
+/* Bane 1 */
+.bold1{
+    left:0;
+    bottom:30%;
+}
+
+/* Bane 2 */
+.bold2{
+    right:0;
+    bottom:30%;
+}
+
+/* Footer */
+.bold3{
+    left:0;
+    bottom:35%;
+}
 
 /*==========Events==========*/
 
@@ -470,6 +487,136 @@ body{
     opacity:0;
 }
 
+/*==========Skab din egen pakke==========*/
+.accordion{
+    margin-bottom:20px;
+}
+
+.accordion-btn{
+    width:100%;
+    padding:25px;
+    border:none;
+    border-radius:10px;
+    background:#92995f;
+    color:white;
+    font-size:24px;
+    display:flex;
+    justify-content:space-between;
+    cursor:pointer;
+}
+
+.accordion-content{
+    display:none;
+    flex-direction:column;
+    gap:10px;
+    padding:20px;
+    background:#bfcf97;
+    border-radius:0 0 10px 10px;
+}
+
+.accordion-content.active{
+    display:flex;
+}
+
+/*==========Booking form==========*/
+.booking-form{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+}
+
+.booking-form input{
+    flex:1;
+    padding:18px;
+    border:none;
+    border-radius:10px;
+    background:#92995f;
+    color:white;
+    font-size:18px;
+}
+
+.booking-form input::placeholder{
+    color:white;
+}
+
+.booking-message{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+    margin-bottom:100px;
+}
+
+.booking-message textarea{
+    flex:2;
+    padding:18px;
+    border:none;
+    border-radius:10px;
+    resize:none;
+    height:60px;
+    background:#92995f;
+    color:white;
+    font-size:18px;
+}
+
+.booking-message textarea::placeholder{
+    color:white;
+}
+
+.booking-message button{
+    flex:1;
+    border:none;
+    border-radius:10px;
+    background:#41491f;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.booking-message button:hover{
+    opacity:0.9;
+}
+
+/*==========Praktisk info==========*/
+
+h1{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 40px;
+
+    font-size:64px;
+    color:#000;
+}
+
+.info-section{
+    max-width:1200px;
+    margin:0 auto 120px auto;
+
+    padding:0 40px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+
+    align-items:start;
+}
+
+.info-text h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.info-text p,
+.info-text li{
+    font-size:18px;
+    line-height:1.6;
+}
+
+.info-image img{
+    width:100%;
+    display:block;
+}
+
+
 /*==========FOOTER==========*/
 
 footer{
@@ -482,19 +629,15 @@ footer{
 /*===WRAPPER===*/
 
 .footer-wrapper{
-
-    width:1000px;
-
-    margin:0 auto;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
 /*===KONTAKT===*/
-
+.footer-contact{
+    flex: 1;
+}
 
 
 .footer-contact h3{
@@ -568,22 +711,23 @@ footer{
 
     margin-bottom:20px;
 }
+.some{
+    flex: 1;
+}
 
 .social-title{
 
     color:#D9DDBB;
-
     font-size:18px;
-
     margin-bottom:20px;
+    text-align: center;
+
 }
 
 .social-icons{
 
     display:flex;
-
     justify-content:center;
-
     gap:20px;
 }
 
@@ -595,8 +739,9 @@ footer{
 /*===LINKS===*/
 
 .footer-links{
+    flex: 1;
+    text-align: right;
 
-    margin-top:110px;
 }
 
 .footer-links h3{
