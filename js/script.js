@@ -148,10 +148,3 @@ window.addEventListener("scroll", () => {
     });
 
 
-/* Skab din egen pakke - booking form */
-document.querySelector(".booking-message button")
-    .addEventListener("click", () => {
-
-        alert("Tak for din forespørgsel! Vi vender tilbage hurtigst muligt.");
-
-    });

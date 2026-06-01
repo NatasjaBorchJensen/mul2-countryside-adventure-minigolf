@@ -8,6 +8,11 @@
     <title>Document</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <!---===HEADER===--->
@@ -76,7 +81,7 @@
 
 <section class="events">
 
-    <h2>Kommende events</h2>
+    <h2>KOMMENDE EVENTS</h2>
 
     <div class="event-cards">
 
@@ -118,7 +123,7 @@
 
 <section class="events">
 
-    <h2>Grupper & selskab</h2>
+    <h2>GRUPPER & SELSKABER</h2>
 
     <div class="event-cards">
 
@@ -228,7 +233,7 @@
     <textarea
             placeholder="Skriv om ønsker her..."></textarea>
 
-    <button>
+    <button class="buttonmessage">
         Send forespørgsel
     </button>
 
@@ -320,7 +325,15 @@
 </footer>
 
 
+<script>
+    /* Skab din egen pakke - booking form */
+    document.querySelector(".buttonmessage")
+        .addEventListener("click", () => {
 
+            alert("Tak for din forespørgsel! Vi vender tilbage hurtigst muligt.");
+
+        });
+</script>
 
 </body>
 </html>

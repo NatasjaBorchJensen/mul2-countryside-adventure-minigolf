@@ -1,8 +1,19 @@
+h1, h2{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 48px;
+    margin-bottom: 30px;
+
+}
+
 /*==========HEADER==========*/
 
 header{
     background-color:#404b1f;
 }
+
 
 /*===NAVBAR===*/
 
@@ -83,7 +94,7 @@ body{
 
 .hero img{
     width:100%;
-    height:500px;
+    height:600px;
     object-fit:cover;
     display:block;
 }
@@ -104,18 +115,6 @@ body{
     margin:0 auto;
 }
 
-/*===OVERSKRIFT===*/
-
-.welcome h1{
-
-    font-size:64px;
-
-    font-weight:700;
-
-    margin-bottom:20px;
-
-    color:#000;
-}
 
 /*===TEKST===*/
 
@@ -127,7 +126,7 @@ body{
 
     max-width:900px;
 
-    margin-bottom:60px;
+    margin-bottom:30px;
 
     color:#000;
 }
@@ -202,7 +201,7 @@ body{
 
 .events h2{
 
-    font-size:64px;
+    font-size:48px;
 
     margin-bottom:50px;
 }
@@ -269,7 +268,6 @@ body{
 /*==========PRISER==========*/
 
 .priser{
-
     max-width:1200px;
 
     margin:100px auto;
@@ -279,7 +277,7 @@ body{
 
 .priser h2{
 
-    font-size:72px;
+    font-size:48px;
 
     margin-bottom:60px;
 
@@ -361,7 +359,7 @@ body{
 
     color:#F5F3E8;
 
-    font-size:72px;
+    font-size:48px;
 
     font-weight:500;
 
@@ -381,9 +379,7 @@ body{
 
 .praktisk-info h2{
 
-    font-size:64px;
-
-    color:#2F311F;
+    font-size:48px;
 
     margin-bottom:40px;
 }
@@ -487,7 +483,19 @@ body{
     opacity:0;
 }
 
-/*==========Skab din egen pakke==========*/
+/*========== Skab din egen pakke ==========*/
+
+.pakke{
+    max-width:1200px;
+    margin:100px auto;
+    padding:0 40px;
+}
+
+.pakke h2{
+    font-size:48px;
+    margin-bottom:40px;
+}
+
 .accordion{
     margin-bottom:20px;
 }
@@ -518,11 +526,15 @@ body{
     display:flex;
 }
 
-/*==========Booking form==========*/
+/*========== Booking form ==========*/
+
 .booking-form{
+    max-width:1200px;
+    margin:40px auto 0 auto;
+    padding:0 40px;
+
     display:flex;
     gap:20px;
-    margin-top:40px;
 }
 
 .booking-form input{
@@ -540,10 +552,12 @@ body{
 }
 
 .booking-message{
+    max-width:1200px;
+    margin:20px auto 100px auto;
+    padding:0 40px;
+
     display:flex;
     gap:20px;
-    margin-top:20px;
-    margin-bottom:100px;
 }
 
 .booking-message textarea{
@@ -580,10 +594,10 @@ body{
 
 h1{
     max-width:1200px;
-    margin:80px auto;
-    padding:0 40px;
+    margin:30px auto;
+    padding:0;
 
-    font-size:64px;
+    font-size:48px;
     color:#000;
 }
 
@@ -612,8 +626,12 @@ h1{
 }
 
 .info-image img{
-    width:100%;
+    width:80%;
     display:block;
+}
+
+.maps{
+    width: 90%;
 }
 
 
