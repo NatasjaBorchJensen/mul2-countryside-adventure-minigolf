@@ -403,7 +403,7 @@ body{
 
     border-radius:12px;
 
-    min-height:220px;
+    height:220px;
 
     padding:35px;
 
@@ -783,3 +783,170 @@ footer{
 
     line-height:1.8;
 }
+
+
+    /* EVENTS */
+
+    .event-cards{
+
+        flex-direction:row;
+
+        align-items:center;
+    }
+
+    .event-card{
+
+        width:100%;
+        max-width:400px;
+    }
+
+    /* PRISER */
+
+    .pris-wrapper{
+
+        flex-direction:row;
+
+        align-items:center;
+    }
+
+    .pris-kort{
+
+        width:100%;
+        max-width:400px;
+    }
+
+    /* PRAKTISK INFO FORSIDE */
+
+    .info-grid{
+
+        grid-template-rows:1fr;
+    }
+
+    /* PRAKTISK INFO SIDE */
+
+    .info-section{
+
+        grid-template-rows:1fr;
+
+        gap:30px;
+    }
+
+    .info-image img{
+
+        width:100%;
+    }
+
+    .maps{
+
+        width:100%;
+        height:300px;
+    }
+
+    /* BOOKING */
+
+    .booking-form{
+
+        flex-direction:row;
+    }
+
+    .booking-message{
+
+        flex-direction:row;
+    }
+
+    /* FOOTER */
+
+    .footer-wrapper{
+
+        flex-direction:row;
+
+        gap:40px;
+
+        text-align:center;
+    }
+
+    .footer-links{
+
+        text-align:center;
+    }
+
+    .footer-title{
+
+        flex-direction:row;
+        align-items:center;
+    }
+
+    .footer-logo{
+
+        width:180px;
+    }
+
+    /* OVERSKRIFTER */
+
+    h1,
+    h2{
+
+        font-size:32px;
+    }
+
+/* =========================
+MOBIL
+========================= */
+
+@media (max-width:768px){
+
+    .navbar{
+        position:relative;
+        padding:20px;
+        height:auto;
+    }
+
+    .logo img{
+        width:180px;
+    }
+
+    .hamburger{
+        display:block;
+        background:none;
+        border:none;
+        color:#d9ddbc;
+        font-size:40px;
+        cursor:pointer;
+        margin-left:auto;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .nav-links.active{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        gap:25px;
+        padding:20px 0;
+    }
+    .left.active{
+        order:3;
+    }
+
+    .right.active{
+        order:4;
+    }
+    .event-cards{
+
+        flex-direction:column;
+    }
+
+    .pris-wrapper{
+        flex-direction: column;
+    }
+
+
+    .info-grid{
+        grid-template-columns:1fr;
+    }
+
+
+    }
